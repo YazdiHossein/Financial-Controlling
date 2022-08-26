@@ -1,29 +1,12 @@
 # Financial-Controlling
 
-Financial Controls
-Procedures, policies, and means that help monitor and control the direction, allocation, and usage of financial resources
-
-Written by CFI Team
-Updated February 9, 2022
-What are Financial Controls?
-Financial controls are the procedures, policies, and means by which an organization monitors and controls the direction, allocation, and usage of its financial resources. Financial controls are at the very core of resource management and operational efficiency in any organization.
-
-Financial Controls
-
-Required Processes
-The implementation of effective financial control policies should be done after a thorough analysis of the existing policies and future outlook of a company. In addition, it is important to ensure the following four processes are completed before implementing financial control in a business:
+Financial Controlling is a combination of procedures, policies, and means to monitor and control the direction, allocation, and usage of financial resources. It is at the very core of resource management and operational efficiency in any organization.
+it is important to ensure the following four processes are completed before implementing financial control in a business:
 
 1. Detecting overlaps and anomalies
-Financial budgets, financial reports, profit & loss statements, balance sheets, etc., present the overall performance and/or operational picture of a business. Hence, while formulating financial control policies, it is very important to detect any overlaps and/or anomalies arising out of the data available. It helps in detecting any existing loopholes in the current management framework and eliminating them.
-
 2. Timely updating
-Financial control is the essence of resource management and, hence, the overall operational efficiency and profitability of a business. Timely updates of all available data are very important. In addition, updating all management practices and policies concerning the existing financial control methods is also equally important.
-
 3. Analyzing all possible operational scenarios
-Before implementing a fixed financial control strategy in an organization, it is important to thoroughly evaluate all possible operational scenarios. Viewing the policies from the perspectives of different operational scenarios – such as profitability, expenditures, safety, and scale of production or volume – can provide the necessary information. Also, it helps establish an effective financial control policy that covers all operational aspects of the organization.
-
 4. Forecasting and making projections
-While implementing a financial control policy, forecasting and making projections are very important steps. They provide an insight into the future goals and objectives of the business. In addition, they can help establish a financial control policy in accordance with the business objectives and act as a catalyst in achieving such goals.
 
 Importance of Financial Controls
 1. Cash flow maintenance
