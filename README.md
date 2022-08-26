@@ -41,3 +41,5 @@ Automatic/subscription payments to be monitored and requiring proper authorizati
 Maintaining a vendor database with detailed purchase records with restricted access in order to monitor cash outflow efficiently
 Periodic reconciliation of bank statements to the general ledger
 Clear and precise expense reimbursement policy to be maintained, including detailed expense reports and receipt verifications in order to curb extravagant business expenses and employee fraud
+
+Reference: CFI Team, 2022. Financial Controls. [online] Corporate Finance Institute. Available at: <https://corporatefinanceinstitute.com/resources/knowledge/finance/financial-controls/> [Accessed 26 August 2022].
