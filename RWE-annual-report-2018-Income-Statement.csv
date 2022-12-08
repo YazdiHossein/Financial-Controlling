@@ -1,0 +1,119 @@
+﻿This is the process of preparing and arranging the table of income statement for a simple analysis., , , , , , , 
+This is the first style of the table., , , , , , , 
+, , , , , , , 
+Back to index, , , , , , , 
+Primary Table, , , , , , , 
+, , , , , , , 
+RWE AG Annual Report 2018, , , , , , , 
+, , , , , , , 
+Income statement, , , , , , , 
+, , , , , , , 
+Items (€ million), Note, 2018, 2017, , , , 
+Revenue (including natural gas tax/electricity tax), -1, 13529, 13953, , , , 
+Natural gas tax/electricity tax, -1, 141, 131, , , , 
+Revenue, -1, 13388, 13822, , , , 
+Other operating income, -2, 931, 3256, , , , 
+Cost of materials, -3, 10237, 10029, , , , 
+Staff costs, -4, 1895, 1848, , , , 
+Depreciation amortisation and impairment losses, (5) (10), 948, 1330, , , , 
+Other operating expenses, -6, 950, 1909, , , , 
+Income from investments accounted for using the equity method, (7) (12), 211, 137, , , , 
+Other income from investments, -7, -42, 20, , , , 
+Financial income, -8, 472, 1545, , , , 
+Finance costs, -8, 881, 1608, , , , 
+Income from continuing operations before tax, , 49, 2056, , , , 
+Taxes on income, -9, 103, 333, , , , 
+Income from continuing operations, , -54, 1723, , , , 
+Income from discontinued operations, , 1127, 592, , , , 
+Income, , 1073, 2315, , , , 
+of which: non-controlling interests, , 679, 373, , , , 
+of which: RWE AG hybrid capital investors’ interest, , 59, 42, , , , 
+of which: net income/income attributable to RWE AG shareholders, , 335, 1900, , , , 
+Basic and diluted earnings per common and preferred share in €, -25, 0.54, 3.09, , , , 
+of which: from continuing operations in €, , -0.32, 2.77, , , , 
+of which: from discontinued operations in €, , 0.86, 0.32, 1, , , 
+1 Prior-year figures adjusted. , , , , , , , 
+, , , , , , , 
+, , , , , , , 
+Table 1, , , , , , , 
+, , , , , , , 
+Deleting the extra unnecessary single data., , , , , , , 
+, , , , , , , 
+The sales figure in this report is called the 'top line'. While the reported profit or loss at the end of the report is called the 'bottom line'., , , , , , , 
+a.      Adding a new column to be able to describe more essential information., , , , , , , 
+b.      Adding 'Top Line' and 'Bottom Line' In the rows of 'Revenue: Sales' and 'Net Income' in the new column., , , , , , , 
+c.      Highlight the top line by using the 'Format Painter' in the Home tab easily highlighting the bottom line the same as the top line., , , , , , , 
+, , , , , , , 
+Changing the minus figures in the second column into the parentheses , , , , , , , 
+As they are just the references for notes in the original format by using the if function , , , , , , , 
+"With this formula '=IF(B56<0;(-1*B56);IF(B56='';' ';(B56)))', , , , , , , "
+, , , , , , , 
+Income statement, , , , , , , 
+, , , , , , , 
+Items (€ million), Note, 2018, 2017, Inof, , , 
+Revenue (including natural gas tax/electricity tax), 1, 13529, 13953, Top Line, , , 
+Natural gas tax/electricity tax, 1, 141, 131, , , , 
+Revenue, 1, 13388, 13822, , , , 
+Other operating income, 2, 931, 3256, , , , 
+Cost of materials, 3, 10237, 10029, , , , 
+Staff costs, 4, 1895, 1848, , , , 
+Depreciation amortisation and impairment losses, (5) (10), 948, 1330, , , , 
+Other operating expenses, 6, 950, 1909, , , , 
+Income from investments accounted for using the equity method, (7) (12), 211, 137, , , , 
+Other income from investments, 7, -42, 20, , , , 
+Financial income, 8, 472, 1545, , , , 
+Finance costs, 8, 881, 1608, , , , 
+Income from continuing operations before tax,  , 49, 2056, , , , 
+Taxes on income, 9, 103, 333, , , , 
+Income from continuing operations,  , -54, 1723, , , , 
+Income from discontinued operations,  , 1127, 592, , , , 
+Income,  , 1073, 2315, , , , 
+of which: non-controlling interests,  , 679, 373, , , , 
+of which: RWE AG hybrid capital investors’ interest,  , 59, 42, , , , 
+of which: net income/income attributable to RWE AG shareholders,  , 335, 1900, Bottom Line, , , 
+Basic and diluted earnings per common and preferred share in €, 25, 0.54, 3.09, , , , 
+of which: from continuing operations in €,  , -0.32, 2.77, , , , 
+of which: from discontinued operations in €,  , 0.86, 0.32, , , , 
+1 Prior-year figures adjusted. ,  , , , , ,  , 
+, , , , , , , 
+, , , , , , , 
+, , , , , , , 
+Table 2, , , , , , , 
+, , , , , , , 
+Adding  a new column named 'Improvement Analysis' to see if the item is better or worse compared to the last year, , , , , , , 
+To do so firstly adding new column to introduce which type of category every item belongs to which is called 'Category', , , , , , , 
+Checking if the item is in the category of incomes and if it is greater or less then putting down 'better' or 'worse' respectively, , , , , , , 
+Checking if the item is in the category of expenses and if it is less or greater then putting down 'better' or 'worse' respectively, , , , , , , 
+To do this comparison we apply the combination of 'ifs' and 'if' functions: , , , , , , , 
+": =IFS(F100='Income Category';IF(C100>D100;'Better';'Worse');F100='Expense Category';IF(C100>D100;'Worse';'Better')), , , , , , , "
+, , , , , , , 
+Adding a new column named 'Ratio Analysis' to see the ratio of the amount in 2018 based on 2017, , , , , , , 
+The formula is: (amount in t2 - amount in t1)/(amount in t1), , , , , , , 
+"With this function of both 'ifs' and 'if': =IFS(F101='Income Category';(C101-D101)/D101;F101='Expense Category';(D101-C101)/D101), , , , , , , "
+, , , , , , , 
+Income statement, , , , , , , 
+, , , , , , , 
+Items (€ million), Note, 2018, 2017, Inof, Category, Improvement Analysis, Ratio Analysis
+Revenue (including natural gas tax/electricity tax), 1, 13529, 13953, Top Line, Income Category, Worse, -0.030387730237225
+Natural gas tax/electricity tax, 1, 141, 131, , Expense Category, Worse, -0.0763358778625954
+Revenue, 1, 13388, 13822, , Income Category, Worse, -0.0313992186369556
+Other operating income, 2, 931, 3256, , Income Category, Worse, -0.714066339066339
+Cost of materials, 3, 10237, 10029, , Expense Category, Worse, -0.0207398544221757
+Staff costs, 4, 1895, 1848, , Expense Category, Worse, -0.0254329004329004
+Depreciation amortisation and impairment losses, (5) (10), 948, 1330, , Expense Category, Better, 0.287218045112782
+Other operating expenses, 6, 950, 1909, , Expense Category, Better, 0.502357255107386
+Income from investments accounted for using the equity method, (7) (12), 211, 137, , Income Category, Better, 0.54014598540146
+Other income from investments, 7, -42, 20, , Income Category, Worse, -3.1
+Financial income, 8, 472, 1545, , Income Category, Worse, -0.694498381877023
+Finance costs, 8, 881, 1608, , Expense Category, Better, 0.452114427860696
+Income from continuing operations before tax,  , 49, 2056, , Income Category, Worse, -0.976167315175097
+Taxes on income, 9, 103, 333, , Expense Category, Better, 0.690690690690691
+Income from continuing operations,  , -54, 1723, , Income Category, Worse, -1.031340684852
+Income from discontinued operations,  , 1127, 592, , Income Category, Better, 0.903716216216216
+Income,  , 1073, 2315, , Income Category, Worse, -0.536501079913607
+of which: non-controlling interests,  , 679, 373, , Income Category, Better, 0.820375335120643
+of which: RWE AG hybrid capital investors’ interest,  , 59, 42, , Income Category, Better, 0.404761904761905
+of which: net income/income attributable to RWE AG shareholders,  , 335, 1900, Bottom Line, Income Category, Worse, -0.823684210526316
+Basic and diluted earnings per common and preferred share in €, 25, 0.54, 3.09, , Income Category, Worse, -0.825242718446602
+of which: from continuing operations in €,  , -0.32, 2.77, , Income Category, Worse, -1.11552346570397
+of which: from discontinued operations in €,  , 0.86, 0.32, , Income Category, Better, 1.6875
