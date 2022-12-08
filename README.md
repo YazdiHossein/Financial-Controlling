@@ -42,4 +42,7 @@ Maintaining a vendor database with detailed purchase records with restricted acc
 Periodic reconciliation of bank statements to the general ledger
 Clear and precise expense reimbursement policy to be maintained, including detailed expense reports and receipt verifications in order to curb extravagant business expenses and employee fraud
 
+Financial-Reporting
+It is financial results of an organization that are released to its stakeholders, such as managers, customers, government officials and other organizations. This reporting is a key function of the controller, CEO, CFO, accountants, and other relevant financial experts.
+
 Reference: CFI Team, 2022. Financial Controls. [online] Corporate Finance Institute. Available at: <https://corporatefinanceinstitute.com/resources/knowledge/finance/financial-controls/> [Accessed 26 August 2022].
