@@ -7,7 +7,7 @@ import difflib
 from rapidfuzz import fuzz
 import xlwings as xw
 
-AdrsDti = r'C:\users\yazdi\Sam_Workshop\Rechtspersönlichkeit, juristischen Personen\Pantera AG\Arbeitsplatz\LNQ Mnt Analyse.xlsx'
+AdrsDti = r'C:\users\Your Name\Excel File.xlsx'
 OpDti = load_workbook(AdrsDti,data_only=True)
 BltLnqBc=OpDti['LnqBc']
 BltStdKg=OpDti['StdKg']
@@ -42,12 +42,12 @@ DfPdEntLst=pd.DataFrame(DtnEntLst,columns=UbschEntLst)
 LstEntLst=DfPdEntLst["Entlist"].tolist()
 
 # Die extrahierten Listen anzuzeigen
-# print(LstBcTxt)
-# print(LstStdKgTxt)
-# print(LstStdKgKg)
-# print(LstEntLst)
+print(LstBcTxt)
+print(LstStdKgTxt)
+print(LstStdKgKg)
+print(LstEntLst)
 
-# # Die benötigten Austellungen vorzubereiten
+# Die benötigten Austellungen vorzubereiten
 LstBcTxtSb=[]
 LstBcTxtSrt=[]
 LstDflbTxt=[]
@@ -137,15 +137,12 @@ xlwTb.data_body_range.columns[SpltNrStFzBt].options(transpose=True).value = LstF
 xlwTb.data_body_range.columns[SpltNrBt].options(transpose=True).value = LstBcTxtSb
 xlwTb.data_body_range.columns[SpltNrSrtdBt].options(transpose=True).value = LstBcTxtSrt
 
-# # TbEntLst=TbEntLst.sort(key=len, reverse=True)
-
-# # Das Ergebnis anzuzeigen
-
-# # print(PdDti)
-# # print(TbLnqBc.ref)
-# # print(MinZilLnq,MaxZilLnq, MinSpltLnq, MaxSpltLnq)
-# # print(UbschLnqBc)
-# # print(TbEntLst)
-# # print(SpltBcTxt)
-# # print(UbschStdKg)
-# print(len(LstDflbTxt))
+# Das Ergebnis anzuzeigen
+print(PdDti)
+print(TbLnqBc.ref)
+print(MinZilLnq,MaxZilLnq, MinSpltLnq, MaxSpltLnq)
+print(UbschLnqBc)
+print(TbEntLst)
+print(SpltBcTxt)
+print(UbschStdKg)
+print(len(LstDflbTxt))
